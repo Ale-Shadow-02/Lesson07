@@ -1,31 +1,23 @@
-let calculate = document.getElementById('start');
-console.log('calculate: ', calculate);
-let plus = document.getElementsByTagName('button');
-console.log('plus: ', plus);
-let plus1 = plus[0];
-let plus2 = plus[1];
-console.log('Plus1,2 : ',plus1, plus2);
-let check = document.querySelector('#deposit-check');
-console.log('check: ', check);
-let addIncome = document.querySelectorAll('.additional_income-item');
-console.log('addIncome: ', addIncome);
-let resultTotal = document.querySelectorAll('.result-total');
-console.log('resultTotal: ', resultTotal);
-let inputRang = document.querySelector('.period-select');
-console.log('inputRang: ', inputRang);
-let salaryAmount = document.querySelector('.salary-amount');
-console.log('salaryAmount: ', salaryAmount);
-let incomeTitle = document.querySelector('.income-title');
-console.log('incomeTitle: ', incomeTitle);
-let incomeAmount = document.querySelector('.income-amount');
-console.log('incomeAmount: ', incomeAmount);
-let expensesTitle = document.querySelector('.expenses-title');
-console.log('expensesTitle: ', expensesTitle);
-let expensesAmount = document.querySelector('.expenses-amount');
-console.log('expensesAmount: ', expensesAmount);
-let additionalExpensesItem = document.querySelector('.additional_expenses-item');
-console.log('additionalExpensesItem: ', additionalExpensesItem);
-let depositAmount = document.querySelector('.deposit-amount');
-console.log('depositAmount: ', depositAmount);
-let depositPercent = document.querySelector('.deposit-percent');
-console.log('depositPercent: ', depositPercent);
+let start = document.getElementById('start'),
+  plus = document.getElementsByTagName('button'),
+  plus1 = plus[0],
+  plus2 = plus[1],
+  salaryAmount = document.querySelector('.salary-amount'),
+  incomeTitle = document.querySelector('.income-title'),
+  incomeAmount = document.querySelector('.income-amount'),
+  additionalIncomeItem = document.querySelectorAll('.additional_income-item '),
+  expensesTitle = document.querySelector('.expenses-title'),
+  expensesAmount = document.querySelector('.expenses-amount'),
+  additionalExpensesItem = document.querySelector('.additional_expenses-item'),
+  check = document.querySelector('#deposit-check'),
+  targetAmount = document.querySelector('.target-amount'),
+  depositAmount = document.querySelector('.deposit-amount'),
+  depositPercent = document.querySelector('.deposit-percent'),
+  periodSelect = document.querySelector('.period-select'),
+  budgetMonthValue = document.querySelector('.budget_month-value'),
+  budgetDayValue = document.querySelector('.budget_day-value'),
+  expensesMonthValue = document.querySelector('.expenses_month-value'),
+  additionalIncomeValue = document.querySelector('.additional_income-value'),
+  additionalExpensesValue = document.querySelector('.additional_expenses-value'),
+  incomeVeriodValue = document.querySelector('.income_period-value'),
+  targetMonthValue = document.querySelector('.target_month-value');
